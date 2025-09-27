@@ -4,7 +4,7 @@
 
   <form (submit)="$event.preventDefault(); add()" style="display:flex; gap:8px; margin-bottom:16px;">
     <input [(ngModel)]="newTitle" name="title" placeholder="Yeni görev..." style="flex:1;padding:8px;">
-    <button type="submit" style="padding:8px 12px;">Ekle</button>
+    <button type="submit" style="padding:8px 12px;">Ekleme yap</button>
   </form>
 
   <p *ngIf="loading">Yükleniyor...</p>
