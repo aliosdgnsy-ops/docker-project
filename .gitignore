@@ -1,0 +1,12 @@
+.env
+*.env
+**/node_modules
+**/.angular/cache
+**/coverage
+**/dist
+npm-debug.log*
+yarn-error.log*
+*.log
+.vscode/
+.idea/
+.DS_Store
